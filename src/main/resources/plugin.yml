@@ -1,0 +1,9 @@
+name: BetterBossBar
+author: Cory Redmond
+version: 1.0-SNAPSHOT
+description: A simple boss bar plugin.
+main: com.minecraftly.betterbossbar.BetterBossBarPlugin
+
+commands:
+  bossreload:
+    description: Reloads the boss bar.

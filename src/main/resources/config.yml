@@ -1,0 +1,116 @@
+#################################
+# BetterBossBar by Cory Redmond #
+# Licenced to Minecraftly       #
+#################################
+#===========================================================
+# Available Styles:
+# PROGRESS
+# NOTCHED_6
+# NOTCHED_10
+# NOTCHED_12
+# NOTCHED_20
+#===========================================================
+# Available Colours:
+# PINK
+# BLUE
+# RED
+# GREEN
+# YELLOW
+# PURPLE
+# WHITE
+
+
+# It's not exact seconds, but it will do..
+# How often to change to the next bar in seconds.
+change-interval-seconds: 1
+
+# This is a LIST of bars...
+# Simply copy and paste the existing to add more.
+bars:
+- Title: '&aCustom Title - 0'
+  Progress: 0.0
+  Color: RED
+  Style: PROGRESS
+  CreateFog: false
+  DarkenSky: false
+  PlayMusic: false
+
+- Title: '&aCustom Title - 1'
+  Progress: 0.1
+  Color: RED
+  Style: PROGRESS
+  CreateFog: false
+  DarkenSky: false
+  PlayMusic: false
+
+- Title: '&aCustom Title - 2'
+  Progress: 0.2
+  Color: RED
+  Style: PROGRESS
+  CreateFog: false
+  DarkenSky: false
+  PlayMusic: false
+
+- Title: '&aCustom Title - 3'
+  Progress: 0.3
+  Color: RED
+  Style: PROGRESS
+  CreateFog: false
+  DarkenSky: false
+  PlayMusic: false
+
+- Title: '&aCustom Title - 4'
+  Progress: 0.4
+  Color: RED
+  Style: PROGRESS
+  CreateFog: false
+  DarkenSky: false
+  PlayMusic: false
+
+- Title: '&aCustom Title - 5'
+  Progress: 0.5
+  Color: GREEN
+  Style: PROGRESS
+  CreateFog: false
+  DarkenSky: false
+  PlayMusic: false
+
+- Title: '&aCustom Title - 6'
+  Progress: 0.6
+  Color: BLUE
+  Style: PROGRESS
+  CreateFog: false
+  DarkenSky: false
+  PlayMusic: false
+
+- Title: '&aCustom Title - 7'
+  Progress: 0.7
+  Color: BLUE
+  Style: PROGRESS
+  CreateFog: false
+  DarkenSky: false
+  PlayMusic: false
+
+- Title: '&aCustom Title - 8'
+  Progress: 0.8
+  Color: BLUE
+  Style: PROGRESS
+  CreateFog: false
+  DarkenSky: false
+  PlayMusic: false
+
+- Title: '&aCustom Title - 9'
+  Progress: 0.9
+  Color: BLUE
+  Style: PROGRESS
+  CreateFog: false
+  DarkenSky: false
+  PlayMusic: false
+
+- Title: '&cCustom Title - 10'
+  Progress: 1.0
+  Color: PINK
+  Style: PROGRESS
+  CreateFog: false
+  DarkenSky: false
+  PlayMusic: false
