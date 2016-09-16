@@ -89,6 +89,9 @@ public class BetterBossBarPlugin extends JavaPlugin implements Listener {
 
 	public final void load() {
 
+		if ( currentBar != null )
+			getServer().getOnlinePlayers().forEach( currentBar::removeBar );
+
 		File file = new File( getDataFolder(), "config.yml" );
 		if ( !file.exists() ) {
 			try {
