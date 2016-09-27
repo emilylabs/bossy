@@ -77,6 +77,11 @@ public class BetterBossBarPlugin extends JavaPlugin implements Listener {
 
 		barQueue.clear();
 
+		if ( currentBar != null ) {
+			getServer().getOnlinePlayers().forEach( currentBar::removeBar );
+			setCurrentBar( null );
+		}
+
 	}
 
 	@Override
